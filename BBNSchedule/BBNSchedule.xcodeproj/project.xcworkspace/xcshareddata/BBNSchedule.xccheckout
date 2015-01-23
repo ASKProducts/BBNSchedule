@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25822B1D-63FC-46AA-996A-7F25B31CC471</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BBNSchedule</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2091F051E91AA446692B4D6C7E9F307BB6ACB615</key>
+		<string>https://github.com/ASKProducts/BBNSchedule.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BBNSchedule/BBNSchedule.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2091F051E91AA446692B4D6C7E9F307BB6ACB615</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ASKProducts/BBNSchedule.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2091F051E91AA446692B4D6C7E9F307BB6ACB615</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2091F051E91AA446692B4D6C7E9F307BB6ACB615</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BBNSchedule</string>
+		</dict>
+	</array>
+</dict>
+</plist>
