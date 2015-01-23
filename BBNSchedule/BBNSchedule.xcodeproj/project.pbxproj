@@ -18,6 +18,7 @@
 		57D441661A72DC280057BCFD /* Day3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441651A72DC280057BCFD /* Day3.txt */; };
 		57D441681A72DC5C0057BCFD /* Day4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441671A72DC5C0057BCFD /* Day4.txt */; };
 		57D4416A1A72DC6C0057BCFD /* Day5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441691A72DC6C0057BCFD /* Day5.txt */; };
+		57D4416D1A72E37D0057BCFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416C1A72E37D0057BCFD /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		57D441651A72DC280057BCFD /* Day3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day3.txt; sourceTree = "<group>"; };
 		57D441671A72DC5C0057BCFD /* Day4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day4.txt; sourceTree = "<group>"; };
 		57D441691A72DC6C0057BCFD /* Day5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day5.txt; sourceTree = "<group>"; };
+		57D4416C1A72E37D0057BCFD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				57D441411A72DA430057BCFD /* AppDelegate.swift */,
 				57D441431A72DA430057BCFD /* ViewController.swift */,
+				57D4416C1A72E37D0057BCFD /* User.swift */,
 				57D4416B1A72DC720057BCFD /* Weekday Schedules */,
 				57D441451A72DA430057BCFD /* Main.storyboard */,
 				57D441481A72DA430057BCFD /* Images.xcassets */,
@@ -242,6 +245,7 @@
 			files = (
 				57D441441A72DA430057BCFD /* ViewController.swift in Sources */,
 				57D441421A72DA430057BCFD /* AppDelegate.swift in Sources */,
+				57D4416D1A72E37D0057BCFD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
