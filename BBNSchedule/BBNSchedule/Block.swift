@@ -10,10 +10,10 @@ import UIKit
 
 class Block: NSObject {
     var name : String;
-    var startTime: String ;
-    var endTime: String;
+    var startTime: Int ;
+    var endTime: Int;
     
-    init(name : String, startTime : String, endTime : String){
+    init(name : String, startTime : Int, endTime : Int){
         self.name = name;
         self.startTime = startTime
         self.endTime = endTime

@@ -27,7 +27,7 @@ class Day: NSObject {
     func blocksAtTime(time : Int) -> [Block]{
         
         let filteredArray = blocks.filter {
-            $0.startTime.toInt() < time && time < $0.endTime.toInt()
+            $0.startTime < time && time < $0.endTime
         }
         
         return filteredArray

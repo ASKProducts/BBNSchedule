@@ -21,6 +21,8 @@
 		57D4416D1A72E37D0057BCFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416C1A72E37D0057BCFD /* User.swift */; };
 		57D441701A74BE310057BCFD /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416F1A74BE310057BCFD /* Block.swift */; };
 		57D441721A74BE610057BCFD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441711A74BE610057BCFD /* Day.swift */; };
+		57D441741A74C28C0057BCFD /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441731A74C28C0057BCFD /* Schedule.swift */; };
+		57D441781A74C2EB0057BCFD /* RegularSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441771A74C2EB0057BCFD /* RegularSchedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		57D4416C1A72E37D0057BCFD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		57D4416F1A74BE310057BCFD /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		57D441711A74BE610057BCFD /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		57D441731A74C28C0057BCFD /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		57D441771A74C2EB0057BCFD /* RegularSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSchedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 				57D441651A72DC280057BCFD /* Day3.txt */,
 				57D441671A72DC5C0057BCFD /* Day4.txt */,
 				57D441691A72DC6C0057BCFD /* Day5.txt */,
+				57D441771A74C2EB0057BCFD /* RegularSchedule.swift */,
 			);
 			name = "Weekday Schedules";
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			children = (
 				57D4416F1A74BE310057BCFD /* Block.swift */,
 				57D441711A74BE610057BCFD /* Day.swift */,
+				57D441731A74C28C0057BCFD /* Schedule.swift */,
 			);
 			name = "Calendar Classes";
 			sourceTree = "<group>";
@@ -257,10 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D441741A74C28C0057BCFD /* Schedule.swift in Sources */,
 				57D441441A72DA430057BCFD /* ViewController.swift in Sources */,
 				57D441701A74BE310057BCFD /* Block.swift in Sources */,
 				57D441421A72DA430057BCFD /* AppDelegate.swift in Sources */,
 				57D441721A74BE610057BCFD /* Day.swift in Sources */,
+				57D441781A74C2EB0057BCFD /* RegularSchedule.swift in Sources */,
 				57D4416D1A72E37D0057BCFD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
