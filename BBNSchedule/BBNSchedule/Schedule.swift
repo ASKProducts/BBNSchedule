@@ -42,4 +42,7 @@ class Schedule: NSObject {
         }
     }
     
+    func blocksOnDay(day: Int, atTime: Int) -> [Block]{
+        return days[day].blocksAtTime(atTime)
+    }
 }
