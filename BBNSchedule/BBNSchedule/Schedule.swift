@@ -23,6 +23,8 @@ class Schedule: NSObject {
         a = add
         r = remove
     */
+    
+    
     func parseCommand(command: String){
         var components = command.componentsSeparatedByString(" ")
         
@@ -37,7 +39,7 @@ class Schedule: NSObject {
         if command == "a" {
             days[day].addBlock(newBlock)
         }
-        else if command == "b" {
+        else if command == "r" {
             days[day].removeBlock(newBlock)
         }
     }
