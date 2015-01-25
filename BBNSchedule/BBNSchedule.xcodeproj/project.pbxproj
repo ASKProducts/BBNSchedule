@@ -19,6 +19,8 @@
 		57D441681A72DC5C0057BCFD /* Day4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441671A72DC5C0057BCFD /* Day4.txt */; };
 		57D4416A1A72DC6C0057BCFD /* Day5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441691A72DC6C0057BCFD /* Day5.txt */; };
 		57D4416D1A72E37D0057BCFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416C1A72E37D0057BCFD /* User.swift */; };
+		57D441701A74BE310057BCFD /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416F1A74BE310057BCFD /* Block.swift */; };
+		57D441721A74BE610057BCFD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441711A74BE610057BCFD /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		57D441671A72DC5C0057BCFD /* Day4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day4.txt; sourceTree = "<group>"; };
 		57D441691A72DC6C0057BCFD /* Day5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day5.txt; sourceTree = "<group>"; };
 		57D4416C1A72E37D0057BCFD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		57D4416F1A74BE310057BCFD /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		57D441711A74BE610057BCFD /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				57D441411A72DA430057BCFD /* AppDelegate.swift */,
 				57D441431A72DA430057BCFD /* ViewController.swift */,
 				57D4416C1A72E37D0057BCFD /* User.swift */,
+				57D4416E1A74BE170057BCFD /* Calendar Classes */,
 				57D4416B1A72DC720057BCFD /* Weekday Schedules */,
 				57D441451A72DA430057BCFD /* Main.storyboard */,
 				57D441481A72DA430057BCFD /* Images.xcassets */,
@@ -136,6 +141,15 @@
 				57D441691A72DC6C0057BCFD /* Day5.txt */,
 			);
 			name = "Weekday Schedules";
+			sourceTree = "<group>";
+		};
+		57D4416E1A74BE170057BCFD /* Calendar Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57D4416F1A74BE310057BCFD /* Block.swift */,
+				57D441711A74BE610057BCFD /* Day.swift */,
+			);
+			name = "Calendar Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D441441A72DA430057BCFD /* ViewController.swift in Sources */,
+				57D441701A74BE310057BCFD /* Block.swift in Sources */,
 				57D441421A72DA430057BCFD /* AppDelegate.swift in Sources */,
+				57D441721A74BE610057BCFD /* Day.swift in Sources */,
 				57D4416D1A72E37D0057BCFD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +453,7 @@
 				57D4415D1A72DA430057BCFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D4415E1A72DA430057BCFD /* Build configuration list for PBXNativeTarget "BBNScheduleTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +462,7 @@
 				57D441601A72DA430057BCFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
