@@ -19,6 +19,12 @@ class Day: NSObject {
     func addBlock( blk : Block ){
         blocks.append(blk);
     }
+    func removeBlock(blk: Block){
+        blocks = blocks.filter(){
+            $0 != blk
+        }
+    }
+    
     func printBlocks(){
         for index in 0..<blocks.count{
             println(blocks[index].name )

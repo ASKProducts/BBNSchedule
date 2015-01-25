@@ -18,4 +18,14 @@ class Block: NSObject {
         self.startTime = startTime
         self.endTime = endTime
     }
+    
+    override func isEqual(object: AnyObject?) -> Bool {
+        var blockVersion = object! as Block
+        if blockVersion.name == self.name &&
+           blockVersion.startTime == self.startTime &&
+           blockVersion.endTime == self.endTime {
+            return true
+        }
+        return false
+    }
 }
