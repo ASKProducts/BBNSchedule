@@ -28,4 +28,12 @@ class Block: NSObject {
         }
         return false
     }
+    
+    func description() -> String {
+        return self.name;
+    }
+    
+    
+    
+    
 }
