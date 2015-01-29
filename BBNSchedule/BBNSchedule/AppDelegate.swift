@@ -42,29 +42,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         initRegularWeeklySchedule()
         
-        for Day in 0...0{
+        for day in 0...0{
             
-            for BlockCounter in 0...(RegularWeeklySchedule.days[Day].blocks.count-1) {
+            for blockCounter in 0...(RegularWeeklySchedule.days[day].blocks.count-1) {
                 
-                block = RegularWeeklySchedule.days[Day].blocks[BlockCounter]
+                block = RegularWeeklySchedule.days[day].blocks[blockCounter]
                 
-                var OneMinutes = block.startTime%10
-                var tenMinutes = (block.startTime - OneMinutes)%100
-                var HourOnes = (block.startTime - tenMinutes - OneMinutes)%1000;
-                var HourTens = (block.startTime - HourOnes - tenMinutes - OneMinutes)%10000;
-                var Hours = String(HourTens/1000) + String(HourOnes/100)
-                var Minutes = String(tenMinutes/10) + String(OneMinutes)
-                var TimeString : String = Hours + ":" + Minutes;
+                var oneMinutes = block.startTime%10
+                var tenMinutes = (block.startTime - oneMinutes)%100
+                var hourOnes = (block.startTime - tenMinutes - oneMinutes)%1000;
+                var hourTens = (block.startTime - hourOnes - tenMinutes - oneMinutes)%10000;
+                var hours = String(hourTens/1000) + String(hourOnes/100)
+                var minutes = String(tenMinutes/10) + String(oneMinutes)
+                var timeString : String = hours + ":" + minutes;
                 
                 
                 
-                var timeString : String =  "2015-01-28 " + TimeString;
-                println(timeString);
+                var dateString : String =  "2015-01-28 " + timeString;
+                println(dateString);
                 
                 let formatter = NSDateFormatter()
                 formatter.dateFormat = "yyyy-MM-dd HH:mm"
-                var date = formatter.dateFromString(timeString)
+                var date = formatter.dateFromString(dateString)
                 //print(date)
+                
                 
                 var localNotification:UILocalNotification = UILocalNotification()
                 localNotification.alertAction = "Block"
