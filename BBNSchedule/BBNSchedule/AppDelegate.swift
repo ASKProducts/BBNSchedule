@@ -54,19 +54,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 
                 
                 
-                var timeString : String =  "2015-01-28 " + TimeString;
+                var timeString : String =  "2015-01-29 " + TimeString;
                 println(timeString);
                 
                 let formatter = NSDateFormatter()
                 formatter.dateFormat = "yyyy-MM-dd HH:mm"
-                formatter.timeZone = NSTimeZone(abbreviation: "GMT");
+             
                 var date = formatter.dateFromString(timeString)
+                var dateMinusFive = date?.dateByAddingTimeInterval(-5*60)
                 
                 
                 var localNotification:UILocalNotification = UILocalNotification()
                 localNotification.alertAction = "Block"
                 localNotification.alertBody = block.description() + " Started";
-                localNotification.fireDate = date
+                localNotification.fireDate = dateMinusFive
                 UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
                 
                 
