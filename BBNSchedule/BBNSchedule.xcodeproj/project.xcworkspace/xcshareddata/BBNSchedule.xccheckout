@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>54B039AD-2CAE-44C0-88E0-8B287AD2F1FF</string>
+	<string>25822B1D-63FC-46AA-996A-7F25B31CC471</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BBNSchedule</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2091F051E91AA446692B4D6C7E9F307BB6ACB615</key>
-		<string>https://github.com/vishmurale/BBNSchedule.git</string>
+		<string>https://github.com/ASKProducts/BBNSchedule.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BBNSchedule/BBNSchedule.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/vishmurale/BBNSchedule.git</string>
+	<string>https://github.com/ASKProducts/BBNSchedule.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

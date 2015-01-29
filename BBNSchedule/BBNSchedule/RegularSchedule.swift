@@ -23,8 +23,8 @@ var regularWeeklyScheduleCommands = [
 //    "a 0 1240 1325 X",
 //    "a 0 1330 1420 C",
 //    "a 0 1425 1510 G",
-    "a 0 1810 1820 1st",
-    "a 0 1812 1820 2nd"
+    "a 0 1905 1905 1st",
+    "a 0 1907 1907 2nd"
 
     
 ]
