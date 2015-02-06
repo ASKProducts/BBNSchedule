@@ -23,6 +23,7 @@ class User: NSObject {
         self.blocks = blocks
     }
     
+        
     class func isUserSaved() -> Bool {
         var defaults = NSUserDefaults.standardUserDefaults()
         var isUserSaved: Bool = defaults.boolForKey(isUserSavedKey)
@@ -33,7 +34,6 @@ class User: NSObject {
         var defaults = NSUserDefaults.standardUserDefaults()
         defaults.setBool(false, forKey: isUserSavedKey)
     }
-    
     func saveSelf(){
         var defaults = NSUserDefaults.standardUserDefaults()
         defaults.setBool(true, forKey: isUserSavedKey)
