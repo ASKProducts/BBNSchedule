@@ -11,6 +11,8 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var counter = 0;
+    
     var window: UIWindow?
 
 
@@ -35,10 +37,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 
         var block : Block;
-        
         initRegularWeeklySchedule()
         
-        for Day in 0...0{
+   
+            
+            
+        for Day in 0...4{
+            
+            println(RegularWeeklySchedule.days[Day].name);
+            
+         
+            
             
             for BlockCounter in 0...(RegularWeeklySchedule.days[Day].blocks.count-1) {
                 
@@ -52,9 +61,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 var Minutes = String(tenMinutes/10) + String(OneMinutes)
                 var TimeString : String = Hours + ":" + Minutes;
                 
+                var dateNum = 2 + Day;
                 
-                
-                var timeString : String =  "2015-01-29 " + TimeString;
+                var timeString : String =  "2015-01-1" + String(dateNum) + " " + TimeString;
                 println(timeString);
                 
                 let formatter = NSDateFormatter()
@@ -63,26 +72,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 var date = formatter.dateFromString(timeString)
                 var dateMinusFive = date?.dateByAddingTimeInterval(-5*60)
                 
-                
+                let Currentdate = NSDate()
+           
+             
                 var localNotification:UILocalNotification = UILocalNotification()
-                localNotification.alertAction = "Block"
+                localNotification.alertAction = "Blcok"
                 localNotification.alertBody = block.description() + " Started";
                 localNotification.fireDate = dateMinusFive
+                localNotification.soundName = UILocalNotificationDefaultSoundName;
+                
+                
+                localNotification.repeatInterval = .WeekCalendarUnit;
+
+                
                 UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
-                
-                
-                
+            
                 
             }
             
             
         }
+            
+        
 
     
+        let arrayOfNotifcations = UIApplication.sharedApplication().scheduledLocalNotifications
         
-        
-        
-        
+        for hello in arrayOfNotifcations {
+            println(hello)
+        }
         
         
      

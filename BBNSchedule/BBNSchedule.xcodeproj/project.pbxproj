@@ -23,7 +23,6 @@
 		57D441721A74BE610057BCFD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441711A74BE610057BCFD /* Day.swift */; };
 		57D441741A74C28C0057BCFD /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441731A74C28C0057BCFD /* Schedule.swift */; };
 		57D441781A74C2EB0057BCFD /* RegularSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441771A74C2EB0057BCFD /* RegularSchedule.swift */; };
-		5B749DBC1A78676800AED739 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B749DBB1A78676800AED739 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		57D441711A74BE610057BCFD /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		57D441731A74C28C0057BCFD /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		57D441771A74C2EB0057BCFD /* RegularSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSchedule.swift; sourceTree = "<group>"; };
-		5B749DBB1A78676800AED739 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +154,6 @@
 				57D4416F1A74BE310057BCFD /* Block.swift */,
 				57D441711A74BE610057BCFD /* Day.swift */,
 				57D441731A74C28C0057BCFD /* Schedule.swift */,
-				5B749DBB1A78676800AED739 /* Notification.swift */,
 			);
 			name = "Calendar Classes";
 			sourceTree = "<group>";
@@ -270,7 +267,6 @@
 				57D441441A72DA430057BCFD /* ViewController.swift in Sources */,
 				57D441701A74BE310057BCFD /* Block.swift in Sources */,
 				57D441421A72DA430057BCFD /* AppDelegate.swift in Sources */,
-				5B749DBC1A78676800AED739 /* Notification.swift in Sources */,
 				57D441721A74BE610057BCFD /* Day.swift in Sources */,
 				57D441781A74C2EB0057BCFD /* RegularSchedule.swift in Sources */,
 				57D4416D1A72E37D0057BCFD /* User.swift in Sources */,
