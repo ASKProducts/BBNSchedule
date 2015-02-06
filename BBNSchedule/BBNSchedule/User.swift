@@ -14,6 +14,7 @@ let userBlocksKey: String = "userBlocksKey"
 
 class User: NSObject {
    
+    //
     
     var name: String = ""
     var blocks: [String: String] = [:]
