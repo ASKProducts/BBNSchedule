@@ -11,6 +11,8 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var counter = 0;
+    
     var window: UIWindow?
 
 
@@ -39,7 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 
         var block : Block;
-        
         initRegularWeeklySchedule()
         
         for day in 0...0{
@@ -56,6 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 var minutes = String(tenMinutes/10) + String(oneMinutes)
                 var timeString : String = hours + ":" + minutes;
                 
+                var dateNum = 2 + Day;
                 
                 
                 var dateString : String =  "2015-01-28 " + timeString;
@@ -66,26 +68,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 var date = formatter.dateFromString(dateString)
                 //print(date)
                 
-                
+                let Currentdate = NSDate()
+           
+             
                 var localNotification:UILocalNotification = UILocalNotification()
-                localNotification.alertAction = "Block"
+                localNotification.alertAction = "Blcok"
                 localNotification.alertBody = block.description() + " Started";
-                localNotification.fireDate = date
+                localNotification.fireDate = dateMinusFive
+                localNotification.soundName = UILocalNotificationDefaultSoundName;
+                
+                
+                localNotification.repeatInterval = .WeekCalendarUnit;
+
+                
                 UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
-                
-                
-                
+            
                 
             }
             
             
         }
+            
+        
 
     
+        let arrayOfNotifcations = UIApplication.sharedApplication().scheduledLocalNotifications
         
-        
-        
-        
+        for hello in arrayOfNotifcations {
+            println(hello)
+        }
         
         
      
