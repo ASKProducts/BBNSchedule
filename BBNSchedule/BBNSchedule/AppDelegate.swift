@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             for BlockCounter in 0...(RegularWeeklySchedule.days[Day].blocks.count-1) {
                 
-                block = RegularWeeklySchedule.days[day].blocks[blockCounter]
+                block = RegularWeeklySchedule.days[Day].blocks[BlockCounter]
                 
                 var OneMinutes = block.startTime%10
                 var tenMinutes = (block.startTime - OneMinutes)%100
@@ -81,6 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
              
                 var localNotification:UILocalNotification = UILocalNotification()
                 localNotification.alertAction = "Blcok"
+                
                 localNotification.alertBody = block.description() + " Started";
                 localNotification.fireDate = dateMinusFive
                 localNotification.soundName = UILocalNotificationDefaultSoundName;
@@ -96,15 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             
         }
-            
         
-
-    
-        let arrayOfNotifcations = UIApplication.sharedApplication().scheduledLocalNotifications
-        
-        for hello in arrayOfNotifcations {
-            println(hello)
-        }
         
         
      
