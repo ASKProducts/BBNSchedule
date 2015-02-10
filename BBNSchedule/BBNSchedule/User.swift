@@ -16,12 +16,19 @@ class User: NSObject {
    
     //
     
-    var name: String = ""
-    var blocks: [String: String] = [:]
+    var name : String = ""
+    var blocks : [String: String]
     
-    init(name: String, blocks: [String: String]) {
+    init(name: String) {
         self.name = name
-        self.blocks = blocks
+        blocks = ["A": "", "B": "", "C": "","D": "", "E": "", "F": "","G": ""]
+    }
+    
+     func addString (Key : String , BlockName : String) {
+        
+
+        blocks[Key] = BlockName
+        
     }
     
         
@@ -51,7 +58,7 @@ class User: NSObject {
         
         var userName: String = defaults.objectForKey(userNameKey) as String
         var userBlocks: [String: String] = defaults.objectForKey(userBlocksKey) as [String: String]
-        var user = User(name: userName, blocks: userBlocks)
+        var user = User(name: userName)
         return user
     }
     
