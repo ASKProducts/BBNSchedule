@@ -21,13 +21,17 @@ class User: NSObject {
     
     init(name: String) {
         self.name = name
-        blocks = ["A": "", "B": "", "C": "","D": "", "E": "", "F": "","G": ""]
+        blocks = [:]
     }
     
-     func addString (Key : String , BlockName : String) {
-        
+    init(name: String, blocks: [String:String]){
+        self.name = name
+        self.blocks = blocks
+    }
+    
+     func setBlock (key : String , blockName : String) {
 
-        blocks[Key] = BlockName
+        blocks[key] = blockName
         
     }
     
@@ -41,6 +45,7 @@ class User: NSObject {
     class func removeUser(){
         var defaults = NSUserDefaults.standardUserDefaults()
         defaults.setBool(false, forKey: isUserSavedKey)
+        defaults.synchronize()
     }
     func saveSelf(){
         var defaults = NSUserDefaults.standardUserDefaults()
@@ -58,7 +63,7 @@ class User: NSObject {
         
         var userName: String = defaults.objectForKey(userNameKey) as String
         var userBlocks: [String: String] = defaults.objectForKey(userBlocksKey) as [String: String]
-        var user = User(name: userName)
+        var user = User(name: userName, blocks: userBlocks)
         return user
     }
     

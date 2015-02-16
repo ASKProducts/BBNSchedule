@@ -13,11 +13,6 @@
 		57D441491A72DA430057BCFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D441481A72DA430057BCFD /* Images.xcassets */; };
 		57D4414C1A72DA430057BCFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D4414A1A72DA430057BCFD /* LaunchScreen.xib */; };
 		57D441581A72DA430057BCFD /* BBNScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441571A72DA430057BCFD /* BBNScheduleTests.swift */; };
-		57D441621A72DC080057BCFD /* Day1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441611A72DC080057BCFD /* Day1.txt */; };
-		57D441641A72DC1C0057BCFD /* Day2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441631A72DC1C0057BCFD /* Day2.txt */; };
-		57D441661A72DC280057BCFD /* Day3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441651A72DC280057BCFD /* Day3.txt */; };
-		57D441681A72DC5C0057BCFD /* Day4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441671A72DC5C0057BCFD /* Day4.txt */; };
-		57D4416A1A72DC6C0057BCFD /* Day5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57D441691A72DC6C0057BCFD /* Day5.txt */; };
 		57D4416D1A72E37D0057BCFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416C1A72E37D0057BCFD /* User.swift */; };
 		57D441701A74BE310057BCFD /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4416F1A74BE310057BCFD /* Block.swift */; };
 		57D441721A74BE610057BCFD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D441711A74BE610057BCFD /* Day.swift */; };
@@ -46,11 +41,6 @@
 		57D441511A72DA430057BCFD /* BBNScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBNScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D441561A72DA430057BCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D441571A72DA430057BCFD /* BBNScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBNScheduleTests.swift; sourceTree = "<group>"; };
-		57D441611A72DC080057BCFD /* Day1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day1.txt; sourceTree = "<group>"; };
-		57D441631A72DC1C0057BCFD /* Day2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day2.txt; sourceTree = "<group>"; };
-		57D441651A72DC280057BCFD /* Day3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day3.txt; sourceTree = "<group>"; };
-		57D441671A72DC5C0057BCFD /* Day4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day4.txt; sourceTree = "<group>"; };
-		57D441691A72DC6C0057BCFD /* Day5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day5.txt; sourceTree = "<group>"; };
 		57D4416C1A72E37D0057BCFD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		57D4416F1A74BE310057BCFD /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		57D441711A74BE610057BCFD /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
@@ -138,11 +128,6 @@
 		57D4416B1A72DC720057BCFD /* Weekday Schedules */ = {
 			isa = PBXGroup;
 			children = (
-				57D441611A72DC080057BCFD /* Day1.txt */,
-				57D441631A72DC1C0057BCFD /* Day2.txt */,
-				57D441651A72DC280057BCFD /* Day3.txt */,
-				57D441671A72DC5C0057BCFD /* Day4.txt */,
-				57D441691A72DC6C0057BCFD /* Day5.txt */,
 				57D441771A74C2EB0057BCFD /* RegularSchedule.swift */,
 			);
 			name = "Weekday Schedules";
@@ -238,13 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D441621A72DC080057BCFD /* Day1.txt in Resources */,
-				57D4416A1A72DC6C0057BCFD /* Day5.txt in Resources */,
 				57D441471A72DA430057BCFD /* Main.storyboard in Resources */,
-				57D441681A72DC5C0057BCFD /* Day4.txt in Resources */,
 				57D4414C1A72DA430057BCFD /* LaunchScreen.xib in Resources */,
-				57D441661A72DC280057BCFD /* Day3.txt in Resources */,
-				57D441641A72DC1C0057BCFD /* Day2.txt in Resources */,
 				57D441491A72DA430057BCFD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
